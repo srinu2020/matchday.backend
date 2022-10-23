@@ -15,6 +15,10 @@ function App() {
        <Route  path='/tournament' element={<AddTournament/>}/>
        <Route path='/fixture' element={<AddFixture/>}/>
      </Routes>
+     <div>
+     <p>© Hacktoberfest 2022.</p>
+     </div>
+     
     </div>
   );
 }
